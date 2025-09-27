@@ -188,6 +188,7 @@ Local path: **_~/ssl-certs/www.example.com/fullchain.pem_**
 example.com = *
 ```
 Server path: **_/remote/path/*.example.com/fullchain.pem_**
+
 Local path: **_~/ssl-certs/example.com/fullchain.pem_**
 
 ## <a id="Usage">Usage</a>
