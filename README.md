@@ -55,16 +55,16 @@ www.example.com = www
 ***
 
 ## Table of Contents
-+ [Installation](##Installation)
-+ [Configuration](##Configuration)
-+ [Usage](##Usage)
-+ [Automation](##Automation)
-+ [Troubleshooting](##Troubleshooting)
-+ [Examples](##Examples)
-+ [Contributing](##Contributing)
-+ [License](##License)
++ [Installation](#Installation)
++ [Configuration](#Configuration)
++ [Usage](#Usage)
++ [Automation](#Automation)
++ [Troubleshooting](#Troubleshooting)
++ [Examples](#Examples)
++ [Contributing](#Contributing)
++ [License](#License)
 
-## Installation
+## <a id="Installation">Installation</a>
 
 ### Prerequisites
 + Python 3.6 or higher
@@ -489,7 +489,7 @@ When reporting issues, please include:
 + Steps to reproduce
 + Environment details
 
-## License
+## <a id="License">License</a>
 This project is licensed under the MIT License.
 
 ## Support
