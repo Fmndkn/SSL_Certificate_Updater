@@ -1,0 +1,5 @@
+# Requirements for SSL Certificate Updater
+# Install with: pip install -r requirements.txt
+
+paramiko>=2.7.2
+cryptography>=3.3
