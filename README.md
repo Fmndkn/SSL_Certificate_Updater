@@ -107,7 +107,8 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Configuration
+## <a id="Configuration">Configuration</a>
+
 ### Configuration File Structure
 Create or edit **_config.ini_**:
 
@@ -189,7 +190,8 @@ example.com = *
 Server path: **_/remote/path/*.example.com/fullchain.pem_**
 Local path: **_~/ssl-certs/example.com/fullchain.pem_**
 
-## Usage
+## <a id="Usage">Usage</a>
+
 ### Basic Commands
 
 ```bash
@@ -243,7 +245,8 @@ Script completed successfully
 2024-01-15 10:30:49 - INFO - ======= End Update =======
 ```
 
-## Automation
+## <a id="Automation">Automation</a>
+
 ### Linux/macOS (cron)
 1. Open crontab:
 
@@ -320,8 +323,10 @@ Enable and start:
 sudo systemctl enable ssl-cert-updater.timer
 sudo systemctl start ssl-cert-updater.timer
 ```
-### Troubleshooting
-#### Common Issues
+## <a id="Troubleshooting">Troubleshooting</a>
+
+### Common Issues
+
 **SSH Connection Failed:**
 
 ```text
@@ -385,7 +390,7 @@ python cert_updater.py -c config.ini --help
 + **Cron logs:** */var/log/syslog* or *journalctl -u cron*
 + **System logs:** */var/log/messages* or */var/log/syslog*
 
-## Examples
+## <a id="Examples">Examples</a>
 
 ### Example 1: Basic Web Server
 ```ini
@@ -458,7 +463,7 @@ primary-domain.com =
 log_file = /backup/logs/ssl.log
 ```
 
-## Project Structure
+##№ Project Structure
 
 ```text
 ssl-certificate-updater/
@@ -471,7 +476,8 @@ ssl-certificate-updater/
 └── README.md               # This file
 ```
 
-## Contributing
+## <a id="Contributing">Contributing</a>
+
 We welcome contributions! Please feel free to submit pull requests, open issues, or suggest improvements.
 
 ## Development Setup
