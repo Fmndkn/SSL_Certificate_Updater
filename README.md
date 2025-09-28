@@ -464,7 +464,7 @@ primary-domain.com =
 log_file = /backup/logs/ssl.log
 ```
 
-##№ Project Structure
+## № Project Structure
 
 ```text
 ssl-certificate-updater/
